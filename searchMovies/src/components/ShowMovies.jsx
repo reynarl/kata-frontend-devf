@@ -7,7 +7,7 @@ const ShowMovies = ({ movies }) => {
     <div className='py-4'>
       {
         movies.length === 0
-          ? 'No se encontraron resultados'
+          ? <p className='text-center'>No se encontraron resultados</p>
           : (
             <ul style={{ listStyle: 'none', paddingInlineStart: 0 }} className='row gx-0 gx-md-5 gy-4'>
               {
