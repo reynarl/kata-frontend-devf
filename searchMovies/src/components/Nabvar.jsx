@@ -11,8 +11,8 @@ const Nabvar = () => {
             <div className='navbar-nav'>
               {/* en lugar de href='' que dirige a la ruta, usamos to='' */}
               <NavLink className='nav-link' to='/'>Home</NavLink>
-              <NavLink className='nav-link' to='/about'>About</NavLink>
-              <NavLink className='nav-link' to='/pricing'>Pricing</NavLink>
+              <NavLink className='nav-link' to='/products'>Products</NavLink>
+              <NavLink className='nav-link' to='/movies'>Movies</NavLink>
             </div>
           </div>
         </div>
